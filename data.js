@@ -9,6 +9,14 @@
 
 module.exports = [
   {
+    name: "Feed",
+    github: "evandrolg/Feed",
+    tags: ["feed", "rss", "feed reder", "client-side"],
+    description: "A client-side library that work like a Feed Reader, returning all datas of a post - title, text, link, etc",
+    url: "https://github.com/evandrolg/Feed",
+    source: "https://raw.github.com/EvandroLG/Feed/master/src/feed.js"
+  },
+  {
     name: "Infect.js",
     github: "amwmedia/Infect.js",
     tags: ["dependency injection", "DI", "dependency", "injection", "dependency-free"],
@@ -23,6 +31,14 @@ module.exports = [
     description: "Sortable is a minimalist JavaScript library for modern browsers and touch devices. No jQuery.",
     url: "http://rubaxa.github.com/Sortable/",
     source: "https://raw.github.com/RubaXa/Sortable/master/Sortable.js"
+  },
+  {
+    name: "AsyncIterator",
+    github: "aravindbaskaran/simple-async",
+    tags: ["async", "iterate", "callback"],
+    description: "A very lightweight javascript library for async iteration. Callback-chain-free. Zero dependency.",
+    url: "https://github.com/aravindbaskaran/simple-async",
+    source: "https://raw.github.com/aravindbaskaran/simple-async/master/asynciterator.js"
   },
   {
     name: "cryptofoo",
@@ -49,6 +65,14 @@ module.exports = [
     source: "https://raw2.github.com/EvandroLG/P/master/src/p.js"
  },
  {
+    name: "MoaJS",
+    github: "Pencroff/MoaJs",
+    tags: ["class", "classes", "extend", "inheritance", "oop", "mixins"],
+    description: "ExtJs syntax for declaration object inheritance, mixins, static methods / properties / mixins, singleton declaration out of the box and less then 2kB minified JavaScript code.",
+    url: "https://github.com/Pencroff/MoaJs",
+    source: "https://raw.github.com/Pencroff/MoaJs/master/moa.dev.js"
+ },
+ {
     name: "state_lite",
     github: "steelbreeze/state_lite.js",
     tags: ["finite", "state", "machine"],
@@ -57,12 +81,28 @@ module.exports = [
     source: "https://raw2.github.com/steelbreeze/state_lite.js/master/src/state_lite.js"
   },
   {
+    name: "bLazyJS",
+    github: "dinbror/blazy",
+    tags: ["lazy", "lazyload", "image", "images", "retina", "responsive", "loader"],
+    description: "A lightweight script for lazy loading and multi-serving (retina and responsive) images",
+    url: "http://dinbror.dk/blazy/",
+    source: "https://raw.github.com/dinbror/blazy/master/blazy.js"
+  },
+ {
+    name: "SimpleBinder",
+    github: "james2doyle/simplebinder",
+    tags: ["binding", "data", "input", "change", "event", "callback", "library", "functional"],
+    description: "simplebinder is a zero dependency one-way databinder for javascript.",
+    url: "https://github.com/james2doyle/simplebinder",
+    source: "https://raw.githubusercontent.com/james2doyle/simplebinder/master/simplebinder.js"
+  },
+  {
     name: "ArrowJS",
     github: "ConduitInc/ArrowJS",
     tags: ["notification", "cross-browser", "namespace"],
     description: "Arrow is a small library for displaying a arrow pointing to the browser download location",
-    url: "https://github.com/ConduitInc/ArrowJS",
-    source: "https://raw.github.com/ConduitInc/ArrowJS/master/src/js/arrow.js"
+    url: "https://github.com/Perion/ArrowJS",
+    source: "https://raw.github.com/Perion/ArrowJS/master/src/js/arrow.js"
   },
   {
     name: "fpscounter",
@@ -78,6 +118,14 @@ module.exports = [
     description: "A mini event library for Javascript applications",
     url: "https://github.com/allouis/minivents",
     source: "https://raw.github.com/allouis/minivents/master/minivents.js"
+  },
+  {
+    name: "Tipograph",
+    github: "nevyk/tipograph",
+    tags: ["typography", "type", "converter", "curly", "quotes", "dash"],
+    description: "Library which transforms your text input into typographically correct sequence of characters.",
+    url: "https://github.com/nevyk/tipograph",
+    source: "https://raw.github.com/nevyk/tipograph/master/src/replace.js"
   },
   {
     name: "audioJS",
@@ -140,7 +188,7 @@ module.exports = [
     github: "jimhigson/oboe.js",
     tags: ["ajax", "streaming", "download", "json", "parser", "sax", "jsonpath", "http"],
     description: "Library for progressive parsing of ajax responses. Provides notification of objects found without waiting for the request to complete.",
-    url: "https://github.com/jimhigson/oboe.js",
+    url: "http://oboejs.com",
     source: "https://raw.github.com/jimhigson/oboe.js/master/dist/oboe-browser.js"
   },
     {
@@ -390,6 +438,22 @@ module.exports = [
     source: "https://raw.github.com/kaimallea/isMobile/master/isMobile.js"
   },
   {
+    name: "tinyrequire",
+    github: "dunxrion/tinyrequire",
+    tags: ["modules", "loader", "require", "define", "dependency", "manager"],
+    description: "To the point dependency management.",
+    url: "https://github.com/adriancooney/tinyrequire",
+    source: "https://raw.github.com/adriancooney/tinyrequire/master/src/tinyrequire.js"
+  },
+  {
+    name: "fuzzy.js",
+    github: "Extaze/fuzzy.js",
+    tags: ["search", "fuzzy", "filter"],
+    description: "Fuzzy.js is a fuzzy search algorithm in javascript",
+    url: "https://github.com/Extaze/fuzzy.js",
+    source: "https://raw.github.com/Extaze/fuzzy.js/master/fuzzy.js"
+  },
+  {
     name: "spooks.js",
     github: "philbooth/spooks.js",
     tags: ["unit test", "spy", "spies", "mock", "fake", "dummy", "double", "stub"],
@@ -536,6 +600,13 @@ module.exports = [
     description: "Smooooooth JavaScript charts for realtime streaming data",
     url: "http://smoothiecharts.org/",
     source: "https://raw.github.com/joewalnes/smoothie/master/smoothie.js"
+  },
+  {
+    name: "svg-path.js",
+    tags: ["SVG", "raphael", "graphics"],
+    description: "Chainable SVG path string generator with some sugar added",
+    url: "https://github.com/ZIJ/svg-path",
+    source: "https://raw.github.com/ZIJ/svg-path/master/svg-path.js"
   },
   {
     name: "DOMinate",
@@ -762,6 +833,13 @@ module.exports = [
     source: "https://raw.github.com/thanpolas/ready.js/master/lib/ready.js"
   },
   {
+    name: "VUnit",
+    tags: ["vw", "vh", "viewport", "CSS", "javascript"],
+    description: "A fast alternative for viewport-relative dimensions. RIP buggy vh and vw CSS units.",
+    url: "https://github.com/joaocunha/v-unit",
+    source: "https://raw.github.com/joaocunha/v-unit/master/v-unit.js"
+  },
+  {
     name: "MinPubSub",
     tags: ["events", "pubsub"],
     description: "A publish/subscribe messaging framework",
@@ -936,7 +1014,7 @@ module.exports = [
     tags: ["templating"],
     description: "Bizarrely clean & simple syntax sugar for building HTML/XML strings",
     url: "http://jsfiddle.net/SubtleGradient/4W3RR/",
-    source: "https://gist.github.com/subtleGradient/278016/raw/BuildSugar.SubtleGradient.js"
+    source: "https://gist.githubusercontent.com/subtleGradient/278016/raw/BuildSugar.SubtleGradient.js"
   },
   {
     name: "Tweet-Templ",
@@ -1085,7 +1163,7 @@ module.exports = [
     tags: ["functional", "events"],
     description: "when/defer-style promises for JavaScript (CommonJS/Promises/A,B,D)",
     url: "https://github.com/kriskowal/q",
-    source: "https://raw.github.com/kriskowal/q/master/q.js"
+    source: "https://raw.github.com/kriskowal/q/v1/q.js"
   },
   {
     name: "domReady",
@@ -1121,8 +1199,8 @@ module.exports = [
     name: "ES5-Shim",
     tags: ["language", "polyfill"],
     description: "Compatibility shims so that legacy JavaScript engines behave as closely as possible to ES5.",
-    url: "https://github.com/kriskowal/es5-shim/",
-    source: "https://raw.github.com/kriskowal/es5-shim/master/es5-shim.js"
+    url: "https://github.com/es-shims/es5-shim/",
+    source: "https://raw.github.com/es-shims/es5-shim/master/es5-shim.js"
   },
   {
     name: "es6-shim",
@@ -2337,7 +2415,7 @@ module.exports = [
     description: "Helper to build sorting functions for array.sort()",
     url: "https://github.com/bbaliguet/ordering",
     source: "https://raw.github.com/bbaliguet/ordering/master/ordering.js"
-  }, 
+  },
   {
     name: "an.hour.ago",
     tags: ["dates", "times", "language", "sugar"],
@@ -2571,7 +2649,7 @@ module.exports = [
   {
     name: "string.js",
     tags: ["string", "language"],
-    description: "string.js is a lightweight (< 4 kb minified and gzipped) JavaScript library for the browser or for Node.js that provides extra String methods.",
+    description: "string.js is a lightweight (&lt; 4 kb minified and gzipped) JavaScript library for the browser or for Node.js that provides extra String methods.",
     url: "http://stringjs.com",
     source: "https://raw.github.com/jprichardson/string.js/master/lib/string.js"
   },
@@ -2613,6 +2691,14 @@ module.exports = [
     source: "https://raw.github.com/fschaefer/Probability.js/master/Probability.js"
   },
   {
+    name: "jQuery Evergreen",
+    github: "webpro/jquery-evergreen",
+    tags: ["DOM", "events", "modern", "modular"],
+    description: "Small and fast DOM and event library for modern browsers. It has the same familiar API as jQuery, and is lean & mean with small, optional modules.",
+    url: "http://webpro.github.io/jquery-evergreen/",
+    source: "https://raw2.github.com/webpro/jquery-evergreen/master/dist/jquery-evergreen.js"
+  },
+  {
     name: "Timer.js",
     tags: ["interval", "timeout", "timer", "periodic"],
     description: "Timer.js is a periodic timer for Node.js and the browser.",
@@ -2638,7 +2724,7 @@ module.exports = [
   {
     name: "Lambda.js",
     tags: ["lambda", "function", "expression", "anonymous", "literal", "functional"],
-    description: "String based lambdas for Node.js and the browser, that allow strings such as 'x+1' and 'x -> x+1' to be used as functions.",
+    description: "String based lambdas for Node.js and the browser, that allow strings such as 'x+1' and 'x -&gt; x+1' to be used as functions.",
     url: "https://github.com/fschaefer/Lambda.js",
     source: "https://raw.github.com/fschaefer/Lambda.js/master/Lambda.js"
   },
@@ -2747,7 +2833,7 @@ module.exports = [
   {
     name: "Perms",
     tags: ["permissions", "perms", "ls", "chmod", "unix"],
-    description: "Convert Unix style permissions to strings like ls (0755 => 'rwxr-xr-x')",
+    description: "Convert Unix style permissions to strings like ls (0755 =&gt; 'rwxr-xr-x')",
     url: "https://github.com/bahamas10/node-perms",
     source: "https://raw.github.com/bahamas10/node-perms/master/index.js"
   },
@@ -3155,7 +3241,7 @@ module.exports = [
   {
     name: "DoubleMetaphone",
     tags: ["phonetic", "metaphone", "codec", "sounds", "like"],
-    description: "Phonetically encode w/ DoubleMetaphone algorithm ('Alexander' -> 'ALKS')",
+    description: "Phonetically encode w/ DoubleMetaphone algorithm ('Alexander' -&gt; 'ALKS')",
     url: "https://github.com/hgoebl/doublemetaphone",
     source: "https://raw.github.com/hgoebl/doublemetaphone/master/doublemetaphone.js"
   },
@@ -3178,7 +3264,7 @@ module.exports = [
     tags: ["i18n"],
     description: "A JavaScript library for i18n text messages.",
     url: "https://bitbucket.org/vogdb/i18n-text",
-    source: "https://bitbucket.org/vogdb/i18n-text/raw/master/dist/i18nText.js"
+    source: "https://bitbucket.org/vogdb/i18n-text/raw/master/dist/i18n-text.js"
   },
   {
     name: "canvas-manipulation",
@@ -3214,13 +3300,6 @@ module.exports = [
     description: "Sorts an Array of Objects with SQL ORDER BY clause",
     url: "https://github.com/avoidwork/keysort",
     source: "https://raw.github.com/avoidwork/keysort/master/lib/keysort.js"
-  },
-  {
-    name: "Lie",
-    tags: ["promise", "deferred","async"],
-    description: "A very small library for promises",
-    url: "https://github.com/calvinmetcalf/lie",
-    source: "https://raw.github.com/calvinmetcalf/lie/master/dist/lie.js"
   },
   {
     name: "klud.js",
@@ -3381,5 +3460,19 @@ module.exports = [
     description: "A fast jQuery replacement library for DOM, ajax, and CSS. 2kb minified+gzipped. Supports IE8+.",
     url: "https://github.com/pseudosavant/psQuery",
     source: "https://raw.github.com/pseudosavant/psQuery/master/src/psQuery.js"
+  },
+  {
+    name: "psColor",
+    tags: ["color", "canvas"],
+    description: "psColor is a small JavaScript library for calculating the average color of an  &lt;img&gt; element in the browser.",
+    url: "https://github.com/pseudosavant/psColor",
+    source: "https://raw.github.com/pseudosavant/psColor/master/psColor.js"
+  },
+  {
+    name: "decision-tree.js",
+    tags: ["machine learning", "decision tree", "classifier"],
+    description: "Tiny library for building Decision Tree and Random Forest classifiers.",
+    url: "https://github.com/lagodiuk/decision-tree-js",
+    source: "https://raw.github.com/lagodiuk/decision-tree-js/master/decision-tree.js"
   }
 ];
